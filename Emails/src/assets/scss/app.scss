@@ -1,0 +1,263 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+/*Seu CSS aqui*/
+img.logo{
+	height:56px;
+}
+body,
+html, 
+.body {
+  background: #eeeeee !important;
+}
+
+h1,h3,h5,p{
+  margin:0px;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+h2{
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+ .status{
+ 	font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+ 	font-size:32px;
+ 	font-weight:700;
+}
+.event-name,
+.event-name a {
+    font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+ 	font-size:18px;
+ 	font-weight:800;
+ 	color: #0083FF;
+}
+.sympla-link{
+	font-weight:400;
+	color: #0083FF;
+}
+.sympla-link-cta{
+	font-weight:700;
+	color: #0083FF;
+}
+.sympla-link-help-channels{
+	font-weight:700;
+	color: #0083FF;
+	line-height: 32px;
+}
+table.callout{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+th.callout-inner {
+  width: 100%;
+  padding: 8px;
+  background: #f3f3f3; 
+  border-radius: 8px;
+  border:none;
+}
+.gray-spacer{
+	background-color:#eeeeee;
+}
+.card-title {
+    font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+ 	font-size:24px;
+ 	font-weight:800;
+ 	color: #494957;
+ }
+.collumn-title{
+	font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+ 	font-size:16px;
+ 	font-weight:800;
+ 	color: #494957;
+ 	padding-bottom:4px;
+}
+/*.collumn-description{
+    font-size: 12px;
+}*/
+.callout-title{
+    font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+ 	font-size:22px;
+ 	font-weight:500;
+ 	color: #494957;
+ 	padding-top:16px;
+ 	text-align:center; 
+ 	margin: 0px;
+}
+.rounded-card{
+	border-radius:8px;
+}
+.sympla-wrapper{
+	padding-left:8px;
+	padding-right:8px;
+}
+.sympla-wrapper-optional{
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:16px;
+}
+th.info-title,
+th.info-title.first,
+th.info-title.last{
+	padding: 8px 16px;
+	font-size:14px;
+	font-weight:500;
+	background-color:#f3f3f3;
+}
+.order-description{
+ 	font-weight:700;
+ 	color: #494957;
+ 	padding-top: 8px;
+ 	font-size: 14px;
+}
+.order-number{
+	font-size:22px;
+	font-weight:700;
+	padding-top:4px;
+}
+th.sympla-callout__first{
+	border-right: 1px solid #D6D8DB;
+}
+th.sympla-callout__second {
+	padding-left: 16px;
+	padding-bottom: 0;
+}
+th.sympla-callout__second th.columns {
+	padding:8px 0;
+	border-bottom: 1px solid #D6D8DB;
+}
+th.sympla-callout__second table.row:last-child th.columns {
+	border-bottom: none;
+}
+.ticket-info th p{
+    padding-top: 16px;
+}
+th .order p{
+	margin-top: 48px;
+}
+th .order p.order-number{
+	margin-top: 0px;
+}
+.help-channels{
+	font-family:Raleway, 'Open Sans', Roboto, Sans-Serif;
+	line-height:1,5;
+ 	font-size:14px;
+ 	font-weight:700;
+ 	color: #494957;
+ 	padding-bottom:8px;
+}
+table.container.footer-background {
+	background-color:#eeeeee;
+}
+.container.header {
+  background: #eeeeee; 
+}
+.sympla-wrapper--help th{
+	padding:0 16px;
+}
+.event-info__col > table > tbody > tr > th,
+.help-col th {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.sympla-icons img{
+	height:16px;
+}
+th.event-info__col{
+	padding-bottom: 0px;
+}
+.sympla-paragraph{
+	padding-bottom: 8px;
+}
+h2.event-name{
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+@media only screen and (max-width: 616px) {
+
+	body, table.body, p, td, th {
+		font-size: 16px;
+	}
+
+	table.body img.logo {
+		height: 56px;
+	}
+
+	.collumn-title {
+		font-size: 16px;
+
+	}
+
+	th.sympla-callout__first {
+		border-right: none;
+		padding-bottom: 8px;
+	}
+
+	th.sympla-callout__second th.columns:first-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.status{
+		font-size:28px;
+	}
+	.ticket-info .columns{
+		padding-bottom: 8px;
+	}
+	.callout{
+		margin-top: 8px;
+	}
+	.callout th.columns:last-child{
+		padding-bottom: 24px;
+	}
+	h3.sympla-wrapper{
+		padding-bottom: 8px;
+	}
+	.sympla-wrapper-optional{
+	padding-bottom: 24px;
+	}
+	p.sympla-wrapper.order-description{
+		padding-top:16px;
+		font-size:20px;
+	}
+	.columns th.sympla-icons.small-12{
+		display:none !important;
+	}
+	th .order p {
+    margin-top: 16px;
+    padding-bottom: 8px;
+    border-bottom:1px solid #D6D8DB;
+   }
+   	th .order p:first-child {
+    padding-bottom: 0px;
+    border-bottom:none; 
+   }
+   .callout th.columns:last-child {
+    padding-bottom: 8px;
+   }
+   .ticket-info th p{
+   	padding-top: 8px;
+   }
+   .ticket-info th.columns.last{
+   	padding-bottom: 24px;
+   }
+   .help-channels{
+ 	font-size:18px; 
+   }
+   .footer-icons table.menu th.menu-item{
+   	padding: 8px;
+   }
+   .footer-icon tr{
+   	text-align: center;
+   }
+   a.sympla-link-cta.footer{
+   	line-height: 48px;
+   }
+}
